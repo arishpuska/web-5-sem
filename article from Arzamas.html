@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<head>
+<title>Статья на Арзамас</title>
+<meta charset="utf-8">
+<meta name="description" content="описание">
+<meta name="keywords" content="ключевые, слова, через, запятую">
+<meta name="color-scheme" content="light dark">
+<style>
+section.section-container {
+    background: #ffffff;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+    padding-top: 60px;
+}
+.blog-article__content {
+    margin: 0 auto;
+    background-color: #fff;
+}
+.mag-nav {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+.mag-nav__content {
+    width: 960px;
+    height: 96px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mag-nav__title {
+    width: 138px;
+    height: 31px;
+    background: transparent url(https://arzamas.academy/mag) 50% 50% no-repeat;
+    background-size: 138px;
+    margin: 0;
+}
+.mag-nav__link, .mag-nav__link:hover {
+    border-bottom: none;
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+}
+a, a:before, a:after {
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+a {
+    color: #1a1a1a;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+}
+.mag-nav__items {
+    font: bold 15px/20px "Formular";
+    color: #1a1a1a;
+    text-align: center;
+    margin: auto;
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+    max-width: 660px;
+}
+ul, ol {
+    list-style-type: none;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, header, nav, section, article, aside, footer, figure, figcaption, details, hgroup {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+ul, ol {
+    list-style-type: none;
+}
+.mag-nav__items {
+    font: bold 15px/20px "Formular";
+    color: #1a1a1a;
+    text-align: center;
+    margin: auto;
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+    max-width: 660px;
+}
+.mag-nav__items li {
+    display: inline-block;
+    padding: 0 17px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul {
+    list-style-type: disc;
+}
+article.article h1 {
+    text-align: center;
+}
+h1 {
+    color: #1a1a1a;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+article.article p.article-preview {
+    border-bottom: 1px solid #e5e5e5;
+    color: #262626;
+    font-size: 25px;
+    text-align: center;
+    line-height: 35px;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+}
+article.article .article-header.post-header {
+    margin-bottom: 26px;
+    padding-top: 39px;
+    color: #bfbfbf;
+    text-transform: uppercase;
+}
+section.section-container .article .article-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+article.article .article-header.post-header .blog-date+a {
+    padding-left: 12px;
+    margin-left: 12px;
+}
+article.article .article-header.post-header a {
+    color: inherit;
+    position: relative;
+    border-bottom: none;
+    font: bold 11px/1 "Formular";
+}
+article.article p.article-author {
+    color: #1a1a1a;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 42px;
+}
+article.article .article-header.post-header .blog-date {
+    font: bold 11px/1 "Formular";
+}
+.header-page-dark {
+    background-color: #000000;
+}
+section.section-container {
+    background: #ffffff;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+    padding-top: 60px;
+}
+article.article.blog-article {
+    margin-bottom: 0;
+}
+article.article {
+    margin-bottom: 48px;
+}
+.blog-article {
+    background-color: #f7f7f7;
+}
+.blog-article__content {
+    width: 1020px;
+}
+.blog-article__content {
+    margin: 0 auto;
+    background-color: #fff;
+}
+article.article p a {
+    color: inherit;
+    border-bottom: 1px solid;
+    text-decoration: none;
+}
+article.article .article-header.post-header {
+    margin-bottom: 26px;
+    padding-top: 39px;
+    color: #bfbfbf;
+    text-transform: uppercase;
+}
+article.article p.article-preview {
+    border-bottom: 0px;
+    padding-bottom: 0px;
+}
+article.article p.article-author {
+    color: #1a1a1a;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+article.article p.bolded-text {
+    font-family: "Formular";
+}
+article.article p {
+    font: normal 17px/26px "Lava 3", serif, Arial, Helvetica, Geneva, sans-serif;
+    margin-bottom: 25px;
+}
+article.article h1, article.article h2, article.article h4, article.article p, article.article blockquote, article.article .author-image {
+    width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, header, nav, section, article, aside, footer, figure, figcaption, details, hgroup {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+article.article .blog-article__content .article-image, article.article .ra__post__content .article-image {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+article.article .article-image {
+    margin: 43px 50px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+article.article .article-image figcaption .copyright, article.article .article-image .figcaption .copyright {
+    display: block;
+    color: #999999;
+    font-family: "Lava 3", serif, Arial, Helvetica, Geneva, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+}
+cite {
+    font-style: italic;
+}
+article.article .blog-article__content .article-image, article.article .ra__post__content .article-image {
+    margin-left: 0;
+    margin-right: 0;
+}
+article.article .article-image figcaption, article.article .article-image .figcaption {
+    display: block;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 10px 0;
+    max-width: 660px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+body {
+    width: 100%;
+    min-width: 1021px;
+    height: 100%;
+    background: #FFF;
+    font: normal 15px/1.334 "Formular", sans-serif;
+    color: #4c4c4c;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition: margin 0.5s ease;
+    -moz-transition: margin 0.5s ease;
+    -ms-transition: margin 0.5s ease;
+    -o-transition: margin 0.5s ease;
+    transition: margin 0.5s ease;
+}
+html, body {
+    line-height: 1;
+}
+html {
+    height: 100%;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+</style>
+</head> 
+<body>
+    <section class="section section-container section-container-mag post-container-848"><header class="header-blog article-header-blog"><div class="mag-nav"><div class="mag-nav__content"><a class="mag-nav__link" href="/mag"><div class="mag-nav__title"></div></a><ul class="mag-nav__items"><li><a href="/mag/history">История</a></li><li><a href="/mag/arts">Искусство</a></li><li><a href="/mag/literature">Литература</a></li><li><a href="/mag/people">Антропология</a></li></ul></header>
+<article class="article blog-article"><div class="blog-article__content"><p class="article-header post-header"><time class="blog-date" datetime="2020-08-13">13 августа 2020</time><a href="/mag/history">История</a>, <a href="/mag/people">Антропология</a></p><h1>Как сделать мумию</h1>
+    <p class="article-preview">Зачем нужна маска Анубиса и сосуды из алебастра? Почему мозг нужно вынуть, а сердце нельзя вынимать ни в коем случае? Как правильно провести обертывание? Ответы на эти и другие вопросы — в увлекательной инструкции от древнеегипетских мумификаторов</p><p class="article-author"><span class="label"><i>Автор</i></span>&nbsp;<a target="_blank" href="/authors/64">Анна&nbsp;Айвазян</a></p><div class="simple-share simple-share--material-top"><div class="simple-share__item simple-share__item--vk"><a class="simple-share__link" data-track-social="vk" data-url="https%3A%2F%2Farzamas.academy%2Fmag%2F848-mumia" href="https://vk.com/share.php?url=https%3A%2F%2Farzamas.academy%2Fmag%2F848-mumia" title="Поделиться в VK"></a><div class="simple-share__icon simple-share__icon--vk"></div></div><div class="simple-share__item simple-share__item--ok"><a class="simple-share__link" data-track-social="ok" data-url="https%3A%2F%2Farzamas.academy%2Fmag%2F848-mumia" href="https://connect.ok.ru/offer?url=https%3A%2F%2Farzamas.academy%2Fmag%2F848-mumia&amp;title=%D0%9A%D0%B0%D0%BA%20%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C%20%D0%BC%D1%83%D0%BC%D0%B8%D1%8E&amp;imageUrl=https%3A%2F%2Fcdn-s-static.arzamas.academy%2Fstorage%2Fpost%2F848%2Fshare_share_picture-3be2cc56-d2a3-4459-9fd6-93226d368300.jpg" title="Поделиться в Одноклассниках"></a><div class="simple-share__icon simple-share__icon--ok"></div></div><div class="simple-share__item simple-share__item--tw"><a class="simple-share__link" data-track-social="twitter" data-url="https%3A%2F%2Farzamas.academy%2Fmag%2F848-mumia" href="https://twitter.com/intent/tweet?text=%D0%9A%D0%B0%D0%BA%20%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C%20%D0%BC%D1%83%D0%BC%D0%B8%D1%8E&amp;original_referer=https%3A%2F%2Farzamas.academy%2Fmag%2F848-mumia&amp;url=https%3A%2F%2Farzamas.academy%2Fmag%2F848-mumia" title="Поделиться в Twitter"></a><div class="simple-share__icon simple-share__icon--tw"></div></div></div>
+<p class="bolded-text">Древнеегипетский мумификатор (<em>hery seshta</em>)&nbsp;&mdash; это одновременно танато&shy;практик, патолого&shy;ана&shy;том и&nbsp;хранитель ритуала. Роль эта невероятно почет&shy;ная: не&nbsp;случайно <em>hery seshta</em> переводится как &laquo;мастер таинства&raquo;. Для&nbsp;выпол&shy;нения проце&shy;ду&shy;ры бальзамирования требовалось не&nbsp;только знание анатомии, но&nbsp;и&nbsp;понимание того, как устроен важнейший ритуал в&nbsp;жизни каждого чело&shy;века&nbsp;&mdash; переход в&nbsp;загробный мир. Успеш&shy;ность этого перехода зависела от&nbsp;мно&shy;&shy;гих факторов, но&nbsp;одним из&nbsp;главных считалась правильная сохран&shy;ность телесной оболочки,&nbsp;ведь в&nbsp;загробном мире дух должен узнать себя и&nbsp;воссоединиться с&nbsp;телом.&nbsp;Процедура бальзамирования разнилась в&nbsp;зави&shy;симости от&nbsp;финан&shy;сового положения усопшего. В&nbsp;&laquo;Истории&raquo; Геродот описы&shy;вает три процедуры разной степени дороговизны&nbsp;&mdash; бальзамирование начи&shy;налось только после того, как родственники выбирали одну из&nbsp;трех опций. Самым дешевым и&nbsp;прос&shy;тым способом мумифицирования было влить в&nbsp;брюш&shy;ную полость умер&shy;шего сок редьки, чтобы&nbsp;очистить кишки, а&nbsp;потом положить тело на&nbsp;70&nbsp;дней в&nbsp;натровый щелок, чтобы высушить. По&nbsp;истечении этого срока мумию возвращали родным&nbsp;&mdash; как правило, бедным крестьянам.</p>
+   
+
+<p class="bolded-text">Второй способ стоил дороже и&nbsp;включал в&nbsp;себя больше этапов. В&nbsp;задний проход вставлялась специальная трубка, в&nbsp;которую заливалось кедровое масло, промывающее брюшную полость. После этого тело на&nbsp;несколько дней погружали в&nbsp;натровый щелок. Потом бальзамировщики выкачивали масло из&nbsp;кишечника. Вместе с&nbsp;ним выходили разложенные внутренности и&nbsp;желу&shy;док. Высушенное тело&nbsp;&mdash; кожу и&nbsp;кости&nbsp;&mdash; возвращали родным.</p>
+
+<p class="bolded-text">Третья&nbsp;&mdash; самая дорогостоящая процедура, предназначенная для древне&shy;египетской элиты,&nbsp;&mdash; требовала куда больше усилий и&nbsp;навыков. Эта инструк&shy;ция, составленная из&nbsp;наблюдений Геродота и&nbsp;других древних историков, поможет провести ритуал правильно.&nbsp;</p>
+
+<p><strong>1. Соберите профессиональную команду.</strong> Вам понадобятся не&nbsp;только подма&shy;стерья и&nbsp;персонал для очищения тела, извлечения органов и&nbsp;перевязки, но&nbsp;еще и&nbsp;жрец Осириса (<em>hery heb</em>), который прочитает заклинания и&nbsp;проведет духов&shy;ную часть ритуала.&nbsp;</p>
+
+<p><strong>2. Наденьте маску Анубиса.</strong>&nbsp;Управляя процессом мумификации, вы&nbsp;испол&shy;няете роль бога Анубиса&nbsp;&mdash; его легко узнать по&nbsp;голове собаки или шакала. Анубис как ответственный за&nbsp;погребение заведовал мумификацией самого бога Осириса, убитого и&nbsp;зверски расчлененного своим братом, злобным богом ярости Сетом. После того&nbsp;как тело Осириса было собрано по&nbsp;кусочкам и&nbsp;готово к&nbsp;мумификации, Сет несколько раз пытался его похитить, чтобы лишить Оси&shy;риса шанса на&nbsp;вечную жизнь. Но&nbsp;Анубис каждый раз догонял и&nbsp;наказывал Сета, спасая&nbsp;мумию. Благодаря его профессионализму Осирис совершил удачный переход в&nbsp;загробный мир и&nbsp;возглавил его. С&nbsp;тех пор ведущие мумификаторы во&nbsp;время ритуалов надевают маску Анубиса.&nbsp;</p>
+
+<figure class="article-image article-image-primary"><img alt="" src="https://cdn-s-static.arzamas.academy/uploads/ckeditor/pictures/15891/content_anubis.jpg" style="width: 660px; height: 440px;" />
+<figcaption><strong>Анубис с&nbsp;мумией. Фрагмент росписи саркофага. I&nbsp;век до&nbsp;нашей эры&nbsp;&mdash; I&nbsp;век</strong><cite class="copyright"> Martin von Wagner Museum </cite></figcaption>
+</figure>
+
+<p><strong>3. Подготовьте тело к&nbsp;процедурам.</strong> Начните с&nbsp;омовения. Прикажите своим помощникам занести тело под&nbsp;отдельно стоящий тент (<em>ibw</em>).&nbsp;Здесь покойного нужно вымыть&nbsp;&mdash; для этого можно использовать раствор с&nbsp;карбонатом натрия, который в&nbsp;больших количествах содержится в&nbsp;озерах в&nbsp;дельте Нила. Постарай&shy;тесь поторопиться: тело разлагается быстро. Все готово? Покойника можно перенести в&nbsp;зал бальзамирования (<em>wabet</em>).&nbsp;</p>
+
+<p><strong>4. Выньте мозг. </strong>Древние египтяне были невысокого мнения о&nbsp;мозге и&nbsp;не&nbsp;счи&shy;тали этот орган необходимым для успешного существования в&nbsp;загробном мире&nbsp;&mdash; по&nbsp;их&nbsp;мнению, думали люди сердцем. Возьмите длинный железный крюк и&nbsp;просуньте через ноздрю в&nbsp;череп. Поводите крюком взад-вперед, чтобы максимально разжижить материю. Часть мозга удастся извлечь при помощи крюка, остальное вытечет само через ноздри&nbsp;&mdash; для этого тело нужно перевер&shy;нуть на&nbsp;живот.&nbsp;</p>
+
+<figure class="article-image article-image-primary"><img alt="" src="https://cdn-s-static.arzamas.academy/uploads/ckeditor/pictures/15892/content_mummy-body.jpg" style="width: 290px; height: 600px;" />
+<figcaption><strong>Мумия королевы&nbsp;Ахмос-Инхапи, дочери фараона Яхмоса</strong><cite class="copyright"> المتحف المصري&lrm; / Египетский национальный музей, Каир</cite></figcaption>
+</figure>
+
+<p><strong>5. Извлеките другие ненужные органы.</strong> Теперь очередь желудка, кишечника, легких и&nbsp;печени. Сделайте надрез на&nbsp;левом боку и&nbsp;попросите помощников вы&shy;нуть все лишнее. Как следует промойте полость пальмовым вином со&nbsp;специя&shy;ми. После этого заполните ее&nbsp;ароматизаторами: особенно хороши мирра и&nbsp;корица, которые не&nbsp;только помогут сохранить тело, но&nbsp;и&nbsp;придадут будущей мумии приятный запах. Чтобы добавить&nbsp;объем и&nbsp;предотвратить тление, можно заполнить полость кусками ткани, пропитанной солью.</p>
+
+<p><strong>6. Положите извлеченные органы в&nbsp;сосуды из&nbsp;алебастра</strong>. Желудок, кишеч&shy;ник, легкие и&nbsp;печень нужно высушить, завернуть в&nbsp;ткань, пропитанную смо&shy;ла&shy;ми, и&nbsp;сложить в&nbsp;четыре алебастровых сосуда&nbsp;&mdash; их&nbsp;называют канопи&shy;чес&shy;кими&thinsp;<span class="info-note"><a>&nbsp;</a><span class="note">Термин &laquo;канопические сосуды&raquo; ввели в&nbsp;обиход антиквары и&nbsp;ранние египтологи в&nbsp;XIX&nbsp;веке. Греки писали, что в&nbsp;городе Кано&shy;пус почитали божество в&nbsp;форме вазы с&nbsp;чело&shy;веческой головой. Так и&nbsp;возникло название для ритуальных сосудов с&nbsp;головами людей и&nbsp;животных. Считается, что первым предна&shy;значение сосудов понял один из&nbsp;осно&shy;вате&shy;лей египтологии Жан-Франсуа Шампольон в&nbsp;1812&nbsp;году.</span></span>. Крышка каждой канопы соответствует одному из&nbsp;сыновей бога Гора. Желудок пойдет в&nbsp;вазу бога Дуамутефа с&nbsp;головой шакала, легкие&nbsp;&mdash; в&nbsp;сосуд с&nbsp;головой бога Хапи, которого изображали в&nbsp;виде обезьяны, для кишечника предусмо&shy;трен сосуд с&nbsp;соколом, олицетворяющим бога Кебехсенуфа. Наконец, печень отправится в&nbsp;сосуд бога Амсета с&nbsp;человеческой головой. Печень пользо&shy;валась особой привилегией: считалось, что она отвечает за&nbsp;эмоции и&nbsp;эмпатию. Потом все четыре сосуда покойник заберет с&nbsp;собой в&nbsp;загробный мир.</p>
+
+<figure class="article-image article-image-primary"><img alt="" src="https://cdn-s-static.arzamas.academy/uploads/ckeditor/pictures/15888/content_Canopic_jar.jpg" style="width: 660px; height: 489px;" />
+<figcaption><strong>Канопы из&nbsp;гробницы&nbsp;Аафенмута. Около&nbsp;712&ndash;664&nbsp;годов до&nbsp;нашей эры</strong><cite class="copyright"> The Metropolitan Museum of&nbsp;Art </cite></figcaption>
+</figure>
+
+<p><strong>7. Не&nbsp;трогайте сердце!</strong> Любой профессионал мумификации знает, что сердце должно остаться в&nbsp;теле. Этот орган играет важнейшую роль в&nbsp;процессе пере&shy;хода&nbsp;&mdash; в&nbsp;частности, без него нельзя пройти суд Осириса, описанный в&nbsp;Книге мертвых процесс над душами умерших. Перед тем&nbsp;как решить, куда отправить покойного, Анубис и&nbsp;Тот взвешивают его сердце. На&nbsp;другую чашу весов кладет&shy;ся перо Маат, богини справедливости, порядка и&nbsp;баланса. Если перевешивает перо, душа покойного, воссоединенная с&nbsp;телом, обретает бессмертие и&nbsp;начи&shy;нает вести райскую жизнь рядом с&nbsp;богами. Если сердце&nbsp;&mdash; его сожрет Амат, чудовище с&nbsp;головой крокодила, торсом леопарда и&nbsp;лапами гиппопотама.&nbsp;</p>
+
+<figure class="article-image article-image-primary"><img alt="" src="https://cdn-s-static.arzamas.academy/uploads/ckeditor/pictures/15889/content_judge-heart.jpg" style="width: 660px; height: 300px;" />
+<figcaption><strong>Суд Осириса над мертвым Хунефером. Миниатюра из Книги мертвых Хунефера. Около 1275&nbsp;года до&nbsp;нашей эры</strong><cite class="copyright">British Museum</cite></figcaption>
+</figure>
+
+<p><strong>8. Погрузите тело в&nbsp;натровый щелок.</strong> 40&nbsp;дней достаточно, чтобы оно как следует засохло.</p>
+
+<p><strong>9. Проведите процедуру обертывания.</strong> Для этого вам понадобится много льняной ткани, смола, амулеты и&nbsp;профессиональный чтец заклинаний,&nbsp;ведь каждый круг обертывания сопровождается специальными молитвами. В&nbsp;ткань также нужно будет завернуть амулеты, папирусы с&nbsp;заклинаниями и&nbsp;все ценные вещи покойного, заранее переданные его родственниками&thinsp;<span class="info-note"><a>&nbsp;</a><span class="note">С&nbsp;Тутанхамоном, например, завернули кинжал, лезвие которого было выплавлено из&nbsp;упавшего на&nbsp;землю метеорита.</span></span>. Разогрейте смо&shy;лу:&nbsp;она выполняет функцию клея. Начинайте обертывание с&nbsp;ног, но&nbsp;не&nbsp;по&nbsp;от&shy;дельности, а&nbsp;в&nbsp;один&nbsp;бандаж.</p>
+
+<figure class="article-image article-image-primary"><img alt="" src="https://cdn-s-static.arzamas.academy/uploads/ckeditor/pictures/15893/content_mummy-swaddle.jpg" style="width: 227px; height: 600px;" />
+<figcaption><strong>Мумия фараона Рамзеса VI в&nbsp;саркофаге</strong><cite class="copyright"> المتحف المصري&lrm; / Египетский национальный музей, Каир </cite></figcaption>
+</figure>
+
+<p><strong>10. Постарайтесь уложиться в</strong>&nbsp;<strong>семьдесят дней.</strong> В&nbsp;разных источниках встречаются разные сроки. Геродот советует держать тело в&nbsp;щелоке 70 дней, вероятно отводя на&nbsp;все остальные процедуры считаные&nbsp;дни. По&nbsp;другой вер&shy;сии,&nbsp;только на&nbsp;обертывание уйдет 15&nbsp;дней, поэтому засушка займет меньше. Главное, иметь в&nbsp;виду, что вся процедура от&nbsp;начала и&nbsp;до&nbsp;конца не&nbsp;должна значительно превышать 70&nbsp;дней. Впрочем, объяснения, откуда берется именно такой срок, древние авторы не&nbsp;дают.&nbsp;</p>
+
+<figure class="article-image article-image-primary"><img alt="" src="https://cdn-s-static.arzamas.academy/uploads/ckeditor/pictures/15890/content_open-mouth.jpg" style="width: 660px; height: 439px;" />
+<figcaption><strong>Церемония открывания рта мумии.&nbsp;Миниатюра из Книги мертвых Хунефера. Около 1275&nbsp;года до&nbsp;нашей эры</strong><cite class="copyright"> British Museum </cite></figcaption>
+<p><strong>11. Передайте тело родственникам</strong>. Они уже сами организуют погребальную маску, саркофаги и&nbsp;торжественное прощание с&nbsp;открыванием рта мумии&nbsp;&mdash; ритуалом перед погребением, возвращающим умершему возможность гово&shy;рить и&nbsp;есть в&nbsp;загробном мире. Ваша&nbsp;же работа на&nbsp;этом завершена.&nbsp;</p>
+</figure>
+</section>
+</body>
+</html>
